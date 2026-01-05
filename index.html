@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Soal Bahasa Inggris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>📚 Latihan Soal Bahasa Inggris</h1>
+
+        <div class="score-board">
+            <div class="score-item">
+                Soal: <span id="current-question">1</span>/<span id="total-questions">0</span>
+            </div>
+            <div class="score-item">
+                Benar: <span id="correct-count">0</span>
+            </div>
+            <div class="score-item">
+                Salah: <span id="wrong-count">0</span>
+            </div>
+        </div>
+
+        <div id="quiz-container">
+            <div class="question-box">
+                <div class="question-number" id="question-number">Pertanyaan 1</div>
+                <div class="question-text" id="question-text"></div>
+            </div>
+
+            <div class="options" id="options-container"></div>
+
+            <div class="feedback" id="feedback"></div>
+
+            <div class="btn-container">
+                <button class="btn-submit" id="btn-submit">Cek Jawaban</button>
+                <button class="btn-next" id="btn-next">Soal Berikutnya</button>
+            </div>
+        </div>
+
+        <div class="result-box" id="result-box">
+            <h2>🎉 Latihan Selesai!</h2>
+            <div class="result-score" id="final-score">0/0</div>
+            <div class="result-message" id="result-message"></div>
+            <button class="btn-restart" id="btn-restart" style="display: block; width: 100%;">Mulai Lagi</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
